@@ -22,10 +22,10 @@ public class teladeCarregamento extends JFrame {
 		setLocationRelativeTo(null); // tela fica centralizado
 		
 		person = new JLabel(new ImageIcon("res//Guri01.gif"));
-		person.setBounds(305,150,64,64);
+		person.setBounds(305,165,64,64);
 		add(person);
 		
-		fundo = new JLabel(new ImageIcon("res//LoadingBackground.png"));
+		fundo = new JLabel(new ImageIcon("res//LoadingBackgroundv2.png"));
 		fundo.setBounds(0,0,677,260);
 		add(fundo);
 		
